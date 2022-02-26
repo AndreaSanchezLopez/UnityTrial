@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="StickerCubeMarker.Top" size="30.000000 30.000000"/>
+        <ImageTarget name="StickerCubeMarker.Back" size="30.000000 30.000000"/>
+        <ImageTarget name="StickerCubeMarker.Right" size="30.000000 30.000000"/>
+        <ImageTarget name="StickerCubeMarker.Bottom" size="30.000000 30.033371"/>
+        <ImageTarget name="StickerCubeMarker.Front" size="30.000000 30.000000"/>
+        <ImageTarget name="StickerCubeMarker.Left" size="30.000000 30.000000"/>
+        <ImageTarget name="TwoColorCubeMarker.Top" size="30.000000 30.000000"/>
+        <ImageTarget name="TwoColorCubeMarker.Back" size="30.000000 30.000000"/>
+        <ImageTarget name="TwoColorCubeMarker.Right" size="30.000000 30.000000"/>
+        <ImageTarget name="TwoColorCubeMarker.Bottom" size="30.000000 30.033371"/>
+        <ImageTarget name="TwoColorCubeMarker.Front" size="30.000000 30.000000"/>
+        <ImageTarget name="TwoColorCubeMarker.Left" size="30.000000 30.000000"/>
+        <MultiTarget name="StickerCubeMarker">
+            <Part name="StickerCubeMarker.Left" translation="-15.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="StickerCubeMarker.Right" translation="15.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="StickerCubeMarker.Front" translation="0 0 15.0" rotation="AD: 1 0 0 0"/>
+            <Part name="StickerCubeMarker.Back" translation="0 0 -15.0" rotation="AD: 0 1 0 180"/>
+            <Part name="StickerCubeMarker.Top" translation="0 15.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="StickerCubeMarker.Bottom" translation="0 -15.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="TwoColorCubeMarker">
+            <Part name="TwoColorCubeMarker.Left" translation="-15.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="TwoColorCubeMarker.Right" translation="15.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="TwoColorCubeMarker.Front" translation="0 0 15.0" rotation="AD: 1 0 0 0"/>
+            <Part name="TwoColorCubeMarker.Back" translation="0 0 -15.0" rotation="AD: 0 1 0 180"/>
+            <Part name="TwoColorCubeMarker.Top" translation="0 15.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="TwoColorCubeMarker.Bottom" translation="0 -15.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
