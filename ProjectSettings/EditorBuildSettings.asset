@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 0f313514e59b70640ba1744221715624
+  - enabled: 1
+    path: Assets/Scenes/Beveled.unity
+    guid: d9949f2ef41bd674ead735a2c900185c
+  - enabled: 1
+    path: Assets/Scenes/Non-beveled.unity
+    guid: d336a449efcc7004d9829af23c95ff42
+  m_configObjects: {}
